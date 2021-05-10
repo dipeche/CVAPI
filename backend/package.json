@@ -1,0 +1,36 @@
+{
+  "name": "cv-resume",
+  "version": "1.0.0",
+  "description": "simple crud cv resume with express, node js and mongoose ",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "crud",
+    "api",
+    "cv-api",
+    "node.js",
+    "express.js"
+  ],
+  "author": "Dipesh K Sharma",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
